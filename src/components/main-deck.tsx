@@ -56,7 +56,10 @@ export const CallUsCircle = ({ className }: CallUsCircleProps) => {
       <div className="relative -bottom-[45%] w-full h-full text-center">
         <div className="relative flex flex-col items-center justify-center gap-4 z-1">
           <Button className="group bg-white rounded-full p-2 shadow-lg hover:bg-lime-300">
-            <div className="bg-white border border-gray-400 rounded-full p-4 shadow-md group-hover:bg-lime-300">
+            <div className="flex flex-row gap-1 bg-white border border-gray-400 rounded-full p-4 shadow-md group-hover:bg-lime-300">
+              <div className="text-gray-600 hidden w-0 h-0 overflow-hidden group-hover:block group-hover:w-auto group-hover:h-auto transition-all duration-1000 delay-500">
+                Talk to our AI agents
+              </div>
               <CallIcon className="w-6 h-6 text-gray-600" />
             </div>
           </Button>
